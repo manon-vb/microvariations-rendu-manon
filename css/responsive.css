@@ -1,0 +1,59 @@
+@media (max-width: 800px) {
+    #forme2{
+      position: fixed;
+      top: 95px;
+      left: -37px;
+      rotate: 245deg;
+      width: 302px;
+      height: auto;
+      }
+      #forme1{
+        position: fixed;
+        top: 462px;
+        right: 7px;
+        rotate: 59deg;
+        width: 222px;
+        height: auto;
+       }
+      #fond{
+        rotate:180deg;
+       }
+    }
+    
+    @media (max-width: 1000px) and (min-width :800px){
+        #forme2{
+            position: fixed;
+            top: 95px;
+            left: 8px;
+            rotate: 203deg;
+            width: 433px;
+            height: auto;
+         }#forme1{
+          position: fixed;
+          top: 436px;
+          right: 45px;
+          rotate: 16deg;
+          width: 327px;
+          height: auto;}
+         
+    }
+    
+    @media (min-width :1800px){
+        #forme1{ 
+            position: fixed;
+            top: 563px;
+            right: 45px;
+            rotate: 16deg;
+            width: 506px;
+            height: auto;
+           }
+           #forme2{
+            position: fixed;
+            top: 102px;
+            left: 8px;
+            rotate: 203deg;
+            width: 637px;
+            height: auto;
+           }
+           
+    }

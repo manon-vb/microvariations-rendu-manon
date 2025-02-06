@@ -1,0 +1,66 @@
+body{
+  height: 300vh; 
+}
+
+main{
+  position : fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* ne pas toucher aux éléments ci-dessus. On travail c'est ce qui permet d'avoir une page que l'on peut 
+"scroller" mais qui visuellement ne bouge pas. */
+
+main {
+  height: 100vh; /* Faire en sorte que le body occupe toute la hauteur de la fenêtre */
+  margin: 0; /* Supprimer les marges par défaut */
+}
+
+/* styles.css */
+#fond{
+  position:absolute;
+  height: 100vh;
+  width:100vw;
+}
+
+
+#forme2{
+  position: fixed;
+  top: 102px;
+  left: 8px;
+  rotate: 218deg;
+  width: 548px;
+  height: auto;}
+
+#forme1{
+  position: fixed;
+  top: 606px;
+  right: 45px;
+  rotate: 16deg;
+  width: 443px;
+  height: auto;
+}
+ 
+.mouvement{
+animation: slide 3s 1 forwards ;
+}
+
+@keyframes slide {
+  100%{
+    top: 106px;
+    right: 445px;
+    rotate: 27deg;
+  }
+}
+
+.mouvement2{
+  animation: slide2 3s 1 forwards ;
+  }
+  
+  @keyframes slide2 {
+    100%{
+      top: 754px;
+  left: 509px;
+  rotate: 197deg;
+    }
+  }
